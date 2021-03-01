@@ -7,7 +7,10 @@
 
   <PropertyGroup>
     <DebugSymbols>true</DebugSymbols>
+    <!-- Turn off Microsoft.NET.Test.SDK's auto-generated entrypoint, as it conflicts with ours -->
+    <GenerateProgramFile>false</GenerateProgramFile>
     <IsTestProject>true</IsTestProject>
+    <TestProject>true</TestProject>
   </PropertyGroup>
 
 </Project>
